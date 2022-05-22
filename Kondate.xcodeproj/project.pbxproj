@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428EC64D2839D22300E24ED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC64C2839D22300E24ED4 /* AppDelegate.swift */; };
+		428EC64F2839D22300E24ED4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC64E2839D22300E24ED4 /* SceneDelegate.swift */; };
+		428EC6512839D22300E24ED4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC6502839D22300E24ED4 /* ViewController.swift */; };
+		428EC6542839D22300E24ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428EC6522839D22300E24ED4 /* Main.storyboard */; };
+		428EC6562839D22B00E24ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428EC6552839D22B00E24ED4 /* Assets.xcassets */; };
+		428EC6592839D22B00E24ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428EC6572839D22B00E24ED4 /* LaunchScreen.storyboard */; };
+		428EC6642839D22C00E24ED4 /* KondateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC6632839D22C00E24ED4 /* KondateTests.swift */; };
+		428EC66E2839D22C00E24ED4 /* KondateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC66D2839D22C00E24ED4 /* KondateUITests.swift */; };
+		428EC6702839D22C00E24ED4 /* KondateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EC66F2839D22C00E24ED4 /* KondateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		428EC6602839D22C00E24ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428EC6412839D22200E24ED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428EC6482839D22300E24ED4;
+			remoteInfo = Kondate;
+		};
+		428EC66A2839D22C00E24ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428EC6412839D22200E24ED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428EC6482839D22300E24ED4;
+			remoteInfo = Kondate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		428EC6492839D22300E24ED4 /* Kondate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kondate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428EC64C2839D22300E24ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428EC64E2839D22300E24ED4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		428EC6502839D22300E24ED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428EC6532839D22300E24ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428EC6552839D22B00E24ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		428EC6582839D22B00E24ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		428EC65A2839D22B00E24ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428EC65F2839D22C00E24ED4 /* KondateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KondateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428EC6632839D22C00E24ED4 /* KondateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KondateTests.swift; sourceTree = "<group>"; };
+		428EC6692839D22C00E24ED4 /* KondateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KondateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428EC66D2839D22C00E24ED4 /* KondateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KondateUITests.swift; sourceTree = "<group>"; };
+		428EC66F2839D22C00E24ED4 /* KondateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KondateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428EC6462839D22300E24ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428EC65C2839D22C00E24ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428EC6662839D22C00E24ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428EC6402839D22200E24ED4 = {
+			isa = PBXGroup;
+			children = (
+				428EC64B2839D22300E24ED4 /* Kondate */,
+				428EC6622839D22C00E24ED4 /* KondateTests */,
+				428EC66C2839D22C00E24ED4 /* KondateUITests */,
+				428EC64A2839D22300E24ED4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		428EC64A2839D22300E24ED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428EC6492839D22300E24ED4 /* Kondate.app */,
+				428EC65F2839D22C00E24ED4 /* KondateTests.xctest */,
+				428EC6692839D22C00E24ED4 /* KondateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428EC64B2839D22300E24ED4 /* Kondate */ = {
+			isa = PBXGroup;
+			children = (
+				428EC64C2839D22300E24ED4 /* AppDelegate.swift */,
+				428EC64E2839D22300E24ED4 /* SceneDelegate.swift */,
+				428EC6502839D22300E24ED4 /* ViewController.swift */,
+				428EC6522839D22300E24ED4 /* Main.storyboard */,
+				428EC6552839D22B00E24ED4 /* Assets.xcassets */,
+				428EC6572839D22B00E24ED4 /* LaunchScreen.storyboard */,
+				428EC65A2839D22B00E24ED4 /* Info.plist */,
+			);
+			path = Kondate;
+			sourceTree = "<group>";
+		};
+		428EC6622839D22C00E24ED4 /* KondateTests */ = {
+			isa = PBXGroup;
+			children = (
+				428EC6632839D22C00E24ED4 /* KondateTests.swift */,
+			);
+			path = KondateTests;
+			sourceTree = "<group>";
+		};
+		428EC66C2839D22C00E24ED4 /* KondateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				428EC66D2839D22C00E24ED4 /* KondateUITests.swift */,
+				428EC66F2839D22C00E24ED4 /* KondateUITestsLaunchTests.swift */,
+			);
+			path = KondateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428EC6482839D22300E24ED4 /* Kondate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428EC6732839D22C00E24ED4 /* Build configuration list for PBXNativeTarget "Kondate" */;
+			buildPhases = (
+				428EC6452839D22300E24ED4 /* Sources */,
+				428EC6462839D22300E24ED4 /* Frameworks */,
+				428EC6472839D22300E24ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kondate;
+			productName = Kondate;
+			productReference = 428EC6492839D22300E24ED4 /* Kondate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		428EC65E2839D22C00E24ED4 /* KondateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428EC6762839D22C00E24ED4 /* Build configuration list for PBXNativeTarget "KondateTests" */;
+			buildPhases = (
+				428EC65B2839D22C00E24ED4 /* Sources */,
+				428EC65C2839D22C00E24ED4 /* Frameworks */,
+				428EC65D2839D22C00E24ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428EC6612839D22C00E24ED4 /* PBXTargetDependency */,
+			);
+			name = KondateTests;
+			productName = KondateTests;
+			productReference = 428EC65F2839D22C00E24ED4 /* KondateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		428EC6682839D22C00E24ED4 /* KondateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428EC6792839D22C00E24ED4 /* Build configuration list for PBXNativeTarget "KondateUITests" */;
+			buildPhases = (
+				428EC6652839D22C00E24ED4 /* Sources */,
+				428EC6662839D22C00E24ED4 /* Frameworks */,
+				428EC6672839D22C00E24ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428EC66B2839D22C00E24ED4 /* PBXTargetDependency */,
+			);
+			name = KondateUITests;
+			productName = KondateUITests;
+			productReference = 428EC6692839D22C00E24ED4 /* KondateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428EC6412839D22200E24ED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					428EC6482839D22300E24ED4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					428EC65E2839D22C00E24ED4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 428EC6482839D22300E24ED4;
+					};
+					428EC6682839D22C00E24ED4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 428EC6482839D22300E24ED4;
+					};
+				};
+			};
+			buildConfigurationList = 428EC6442839D22200E24ED4 /* Build configuration list for PBXProject "Kondate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428EC6402839D22200E24ED4;
+			productRefGroup = 428EC64A2839D22300E24ED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428EC6482839D22300E24ED4 /* Kondate */,
+				428EC65E2839D22C00E24ED4 /* KondateTests */,
+				428EC6682839D22C00E24ED4 /* KondateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428EC6472839D22300E24ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428EC6592839D22B00E24ED4 /* LaunchScreen.storyboard in Resources */,
+				428EC6562839D22B00E24ED4 /* Assets.xcassets in Resources */,
+				428EC6542839D22300E24ED4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428EC65D2839D22C00E24ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428EC6672839D22C00E24ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428EC6452839D22300E24ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428EC6512839D22300E24ED4 /* ViewController.swift in Sources */,
+				428EC64D2839D22300E24ED4 /* AppDelegate.swift in Sources */,
+				428EC64F2839D22300E24ED4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428EC65B2839D22C00E24ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428EC6642839D22C00E24ED4 /* KondateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428EC6652839D22C00E24ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428EC66E2839D22C00E24ED4 /* KondateUITests.swift in Sources */,
+				428EC6702839D22C00E24ED4 /* KondateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		428EC6612839D22C00E24ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428EC6482839D22300E24ED4 /* Kondate */;
+			targetProxy = 428EC6602839D22C00E24ED4 /* PBXContainerItemProxy */;
+		};
+		428EC66B2839D22C00E24ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428EC6482839D22300E24ED4 /* Kondate */;
+			targetProxy = 428EC66A2839D22C00E24ED4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		428EC6522839D22300E24ED4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428EC6532839D22300E24ED4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428EC6572839D22B00E24ED4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428EC6582839D22B00E24ED4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428EC6712839D22C00E24ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		428EC6722839D22C00E24ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428EC6742839D22C00E24ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kondate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.toto.ishikawa.Kondate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		428EC6752839D22C00E24ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kondate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.toto.ishikawa.Kondate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		428EC6772839D22C00E24ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.toto.ishikawa.KondateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kondate.app/Kondate";
+			};
+			name = Debug;
+		};
+		428EC6782839D22C00E24ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.toto.ishikawa.KondateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kondate.app/Kondate";
+			};
+			name = Release;
+		};
+		428EC67A2839D22C00E24ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.toto.ishikawa.KondateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kondate;
+			};
+			name = Debug;
+		};
+		428EC67B2839D22C00E24ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.toto.ishikawa.KondateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kondate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428EC6442839D22200E24ED4 /* Build configuration list for PBXProject "Kondate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428EC6712839D22C00E24ED4 /* Debug */,
+				428EC6722839D22C00E24ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428EC6732839D22C00E24ED4 /* Build configuration list for PBXNativeTarget "Kondate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428EC6742839D22C00E24ED4 /* Debug */,
+				428EC6752839D22C00E24ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428EC6762839D22C00E24ED4 /* Build configuration list for PBXNativeTarget "KondateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428EC6772839D22C00E24ED4 /* Debug */,
+				428EC6782839D22C00E24ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428EC6792839D22C00E24ED4 /* Build configuration list for PBXNativeTarget "KondateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428EC67A2839D22C00E24ED4 /* Debug */,
+				428EC67B2839D22C00E24ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428EC6412839D22200E24ED4 /* Project object */;
+}
